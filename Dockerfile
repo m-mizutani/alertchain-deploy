@@ -1,4 +1,4 @@
-FROM ghcr.io/m-mizutani/alertchain:v0.0.14
+FROM ghcr.io/m-mizutani/alertchain:v0.0.15
 
 COPY policy /policy
 
