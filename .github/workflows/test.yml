@@ -1,0 +1,13 @@
+name: test
+
+on:
+  push:
+
+jobs:
+  alert_test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker://openpolicyagent/opa:0.51.0-rootless
+        with:
+          args: "test -v -b ./policy"
