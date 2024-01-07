@@ -1,0 +1,13 @@
+{
+  "title": "TestQuery1",
+  "description": "",
+  "attrs": [
+    { "key": "Name", "value": "mizutani", "type": "" },
+    { "key": "Age", "value": 13, "type": "" },
+    {
+      "key": "now",
+      "value": "2024-01-07T00:49:41.360791Z",
+      "type": ""
+    }
+  ]
+}
